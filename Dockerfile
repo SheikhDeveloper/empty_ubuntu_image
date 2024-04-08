@@ -1,8 +1,8 @@
 #Download base image ubuntu 22.04
 FROM ubuntu:22.04
 
-LABEL maintainer="thientc84@gmail.com"
-LABEL description="This is custom Docker Image based on Ubuntu 22.04 for testing Futag."
+LABEL maintainer="tvemperror@gmail.com"
+LABEL description="This is custom Docker Image based on Ubuntu 22.04."
 
 RUN apt update --fix-missing
 RUN apt install -y apt-utils
